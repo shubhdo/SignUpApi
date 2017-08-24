@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
   "dependencies": {
@@ -12,9 +12,10 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "express-validator": "^3.2.1",
-    "indicative": "^2.2.1",
     "mongoose": "^4.11.5",
-    "nodemon": "^1.11.0"
+    "multer": "^1.3.0",
+    "nodemon": "^1.11.0",
+    "request": "^2.81.0"
   },
   "keywords": [],
   "author": "",
